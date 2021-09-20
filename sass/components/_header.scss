@@ -1,0 +1,131 @@
+.header {
+  background-image: url("../img/bg/Virna.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 1055px;
+  z-index: 1;
+}
+
+.header__leftside {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 855px;
+  height: 1055px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  z-index: 2;
+}
+
+.header__leftside--logo_virna {
+  position: absolute;
+  width: 118px;
+  height: 18px;
+  left: 256px;
+  top: 48px;
+  z-index: 2;
+}
+
+.header__leftside--title {
+  position: absolute;
+  z-index: 2;
+  width: 185px;
+  font-family: Cera Pro, sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 100%;
+  top: 276px;
+  left: 256px;
+}
+
+.header__leftside--subtitle {
+  position: absolute;
+  left: 237px;
+  top: 500px;
+  z-index: 2;
+  width: 100px;
+  height: 70px;
+  font-family: Cera Pro, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: right;
+  color: #000000;
+  transform: rotate(-90deg);
+}
+
+.header__leftside--sidepanel {
+  position: absolute;
+  bottom: 49px;
+  left: 391px;
+  z-index: 2;
+}
+
+.header__leftside--select {
+  position: absolute;
+  top: 3px;
+  right: -318px;
+  font-family: Cera Pro, sans-serif;
+  font-size: 15px;
+  border: 0;
+  background: none;
+}
+
+.header__leftside--menu {
+  left: -135px;
+  top: 2px;
+  position: absolute;
+}
+
+.header__leftside--menu span {
+  display: block;
+  margin-top: 5px;
+  width: 17px;
+  height: 1px;
+  background: #000000;
+}
+
+.header__right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+  height: 1055px;
+  width: 467px;
+  background: #ffffff;
+}
+
+.header__right--logo_bonum {
+  position: absolute;
+  width: 139px;
+  height: 20px;
+  left: 108px;
+  top: 50px;
+  z-index: 2;
+}
+
+.header__right--title {
+  position: absolute;
+  left: 103px;
+  width: 200px;
+  height: 20px;
+  top: 536px;
+  font-family: Cera Pro, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  transform: rotate(90deg);
+}
+
+.header__right--title span {
+  position: absolute;
+  left: 124px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.header__right--select {
+  display: none;
+}

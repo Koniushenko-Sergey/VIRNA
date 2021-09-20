@@ -1,0 +1,328 @@
+@media (max-width: 960px) {
+  .header {
+    background-image: url('../img/bg/Virna_960.jpg');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+  }
+
+  .header__leftside {
+    position: absolute;
+    width: 465px;
+    height: 600px;
+  }
+
+  .header__leftside--logo_virna {
+    position: absolute;
+    width: 97px;
+    height: 14px;
+    left: 100px;
+    top: 29px;
+    z-index: 2;
+  }
+
+  .header__leftside--title {
+    z-index: 2;
+    width: 180px;
+    font-size: 51px;
+    line-height: 100%;
+    left: 96px;
+    top: 118px;
+  }
+
+  .header__leftside--subtitle {
+    position: absolute;
+    left: 88px;
+    top: 245px;
+    z-index: 2;
+    width: 90px;
+    height: 70px;
+    font-size: 17px;
+    line-height: 100%;
+    text-align: right;
+  }
+
+  .header__leftside--sidepanel {
+    position: absolute;
+    top: 476px;
+    left: 176px;
+    z-index: 2;
+  }
+
+  .header__leftside--select {
+    position: absolute;
+    top: 4px;
+    right: -96px;
+    font-size: 13px;
+  }
+
+  .ins {
+    padding: 0px 9px 0 13px;
+  }
+
+  .heart {
+    padding-left: 4px;
+  }
+
+  .header__leftside--menu {
+    position: absolute;
+    width: 32px;
+    left: -77px;
+    top: 3px;
+  }
+
+  .header__leftside--menu span {
+    display: block;
+    margin-top: 4px;
+    width: 17.5px;
+    height: 1px;
+    background: #000000;
+  }
+
+  .header__right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+    height: 600px;
+    width: 222px;
+    background: #ffffff;
+  }
+
+  .header__right--logo_bonum {
+    position: absolute;
+    width: 54px;
+    height: 32px;
+    left: 73px;
+    top: 21px;
+    z-index: 2;
+  }
+
+  .header__right--title {
+    position: absolute;
+    left: 16px;
+    width: 219px;
+    height: 10px;
+    top: 291px;
+    font-family: Cera Pro, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__right--title span {
+    position: absolute;
+    left: 120px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  //--main_colors-section--//
+
+  .colors {
+    position: relative;
+    min-height: 800px;
+    margin-top: 22px;
+  }
+
+  .colors__heading {
+    position: absolute;
+    //   top: -28px;
+    left: 52%;
+    font-size: 26px;
+    color: #000000;
+  }
+
+  .colors__subheading {
+    position: absolute;
+    left: 82px;
+    //   top: 73px;
+    font-family: Cera Pro, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(-90deg);
+  }
+
+  .colors__descriptions {
+    position: absolute;
+    width: 308px;
+    // margin-left: 575px;
+    //   top: 60px;
+    font-size: 14px;
+    text-align: left;
+    left: 500px;
+  }
+
+  .colors__title {
+    position: absolute;
+    width: 257px;
+    //   top: 195px;
+    left: 144px;
+    font-size: 40px;
+    line-height: 41px;
+  }
+
+  .colors__subtitle {
+    width: 185px;
+    left: 276px;
+    //   top: 267px;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .colors__burgundy {
+    width: 210px;
+    height: 50px;
+    right: 95px;
+    top: 316px;
+  }
+
+  .colors__burgundy--title {
+    position: absolute;
+    top: 242px;
+    right: 76px;
+    font-size: 15px;
+  }
+
+  .colors__dark--gray {
+    width: 80px;
+    height: 50px;
+    left: 145px;
+    top: 557px;
+  }
+
+  .colors__dark__gray_title {
+    left: 145px;
+    top: 617px;
+    font-size: 16px;
+  }
+
+  .colors__gray {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    left: 255px;
+    top: 638px;
+    background: #b7b7b7;
+  }
+
+  .colors__gray--title {
+    left: 258px;
+    top: 702px;
+    font-size: 13px;
+  }
+
+  .colors__black {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    left: 365px;
+    top: 639px;
+  }
+
+  .colors__pink {
+    position: absolute;
+    top: 454px;
+    width: 88px;
+    height: 50px;
+    right: 376px;
+  }
+
+  .colors__pink--title {
+    position: absolute;
+    right: 406px;
+    top: 517px;
+    font-family: Cera Pro, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .colors__beige {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 255px;
+    top: 538px;
+    background: #e8d8d9;
+  }
+
+  .colors__beige--title {
+    position: absolute;
+    right: 284px;
+    top: 600px;
+    font-family: Cera Pro, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .colors__light-gray {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    right: 135px;
+    top: 537px;
+    background: #dedcdc;
+  }
+
+  .colors__bright {
+    position: absolute;
+    right: 79px;
+    top: 688px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  //--footer-section--//
+
+  .footer {
+    position: relative;
+    min-height: 885px;
+    z-index: 1;
+  }
+
+  .footer__img {
+    position: absolute;
+    top: 65px;
+    width: 374px;
+    height: 400px;
+    left: 100px;
+    background: url('./img/home_blur_rectangle_960.png');
+  }
+
+  .footer__logo--bonum {
+    width: 66px;
+    height: 19px;
+    top: 44px;
+    left: 94px;
+    position: absolute;
+    z-index: 5;
+  }
+
+  .footer__title {
+    position: absolute;
+    z-index: 5;
+    top: 144px;
+    left: 51%;
+    width: 400px;
+    height: 91px;
+    font-size: 51px;
+    color: #000000;
+  }
+
+  .footer__subtitle {
+    z-index: 5;
+    position: absolute;
+    width: 89px;
+    height: 18px;
+    left: 459px;
+    top: 273px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

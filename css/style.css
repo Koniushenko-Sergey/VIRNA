@@ -1,0 +1,382 @@
+.container {
+  display: block;
+  margin: 0 auto;
+}
+
+/* header dsfasdfsdgdfgsdfgsfhfghdfghdfjdfhs*/
+
+.header {
+  background-image: url('../img/bg/Virna.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 1055px;
+  z-index: 1;
+}
+
+.header__leftside {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 855px;
+  height: 1055px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  z-index: 2;
+}
+
+.header__leftside--logo_virna {
+  position: absolute;
+  width: 118px;
+  height: 18px;
+  left: 256px;
+  top: 48px;
+  z-index: 2;
+}
+
+.header__leftside--title {
+  position: absolute;
+  z-index: 2;
+  width: 185px;
+  font-family: Cera Pro;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 100%;
+  top: 276px;
+  left: 256px;
+}
+
+.header__leftside--subtitle {
+  position: absolute;
+  left: 237px;
+  top: 500px;
+  z-index: 2;
+  width: 100px;
+  height: 70px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: right;
+  color: #000000;
+  transform: rotate(-90deg);
+}
+
+.header__leftside--sidepanel {
+  position: absolute;
+  bottom: 49px;
+  left: 391px;
+  z-index: 2;
+}
+
+.header__leftside--select {
+  position: absolute;
+  top: 3px;
+  right: -318px;
+  /* font-family: Cera Pro; */
+  font-size: 15px;
+  border: 0;
+  background: none;
+}
+
+.header__leftside--menu {
+  left: -135px;
+  top: 2px;
+  position: absolute;
+}
+
+.header__leftside--menu span {
+  display: block;
+  margin-top: 5px;
+  width: 17px;
+  height: 1px;
+  background: #000000;
+}
+
+.header__right {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+  height: 1055px;
+  width: 467px;
+  background: #ffffff;
+}
+
+.header__right--logo_bonum {
+  position: absolute;
+  width: 139px;
+  height: 20px;
+  left: 108px;
+  top: 50px;
+  z-index: 2;
+}
+
+.header__right--title {
+  position: absolute;
+  left: 103px;
+  width: 200px;
+  height: 20px;
+  top: 536px;
+  /* font-family: Cera Pro; */
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  transform: rotate(90deg);
+}
+
+.header__right--title span {
+  position: absolute;
+  left: 124px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.header__right--select {
+  display: none;
+}
+
+/* colors section, main section  */
+
+.colors {
+  position: relative;
+  min-height: 942px;
+  margin-top: 22px;
+}
+
+.colors__heading {
+  position: absolute;
+  top: 69px;
+  left: 50.6%;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+}
+
+.colors__subheading {
+  position: absolute;
+  left: 244px;
+  top: 177px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(-90deg);
+}
+
+.colors__descriptions {
+  position: absolute;
+  top: 163px;
+  width: 320px;
+  right: 506px;
+  /* font-family: Montserrat; */
+  font-size: 17px;
+  color: #292929;
+}
+
+.colors__title {
+  position: absolute;
+  width: 404px;
+  top: 300px;
+  left: 305px;
+  /* font-family: Cera Pro; */
+  font-weight: bold;
+  font-size: 62px;
+  color: #000000;
+  line-height: 63px;
+}
+
+.colors__subtitle {
+  position: absolute;
+  width: 193px;
+  left: 509px;
+  top: 431px;
+  /* font-family: Cera Pro; */
+  font-size: 18px;
+  text-align: right;
+  color: #000000;
+}
+
+.colors__burgundy {
+  position: absolute;
+  width: 281px;
+  height: 71px;
+  right: 258px;
+  top: 441px;
+  background: #9a0034;
+}
+
+.colors__burgundy--title {
+  position: absolute;
+  top: 367px;
+  right: 238px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  transform: rotate(-90deg);
+}
+
+.colors__dark--gray {
+  position: absolute;
+  width: 128px;
+  height: 62px;
+  left: 376px;
+  top: 643px;
+  background: #898989;
+}
+
+.colors__dark__gray_title {
+  position: absolute;
+  left: 374px;
+  top: 711px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.colors__gray {
+  position: absolute;
+  width: 128px;
+  height: 62px;
+  left: 536px;
+  top: 731px;
+  background: #b7b7b7;
+}
+
+.colors__gray--title {
+  position: absolute;
+  left: 537px;
+  top: 800px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.colors__black {
+  position: absolute;
+  width: 128px;
+  height: 62px;
+  left: 695px;
+  top: 732px;
+  background: #000000;
+}
+
+.colors__pink {
+  position: absolute;
+  top: 554px;
+  width: 128px;
+  height: 62px;
+  right: 698px;
+  background: #d7969e;
+}
+
+.colors__pink--title {
+  position: absolute;
+  right: 771px;
+  top: 629px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.colors__beige {
+  position: absolute;
+  width: 128px;
+  height: 62px;
+  right: 539px;
+  top: 649px;
+  background: #e8d8d9;
+}
+
+.colors__beige--title {
+  position: absolute;
+  right: 607px;
+  top: 724px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+}
+
+.colors__light-gray {
+  position: absolute;
+  width: 128px;
+  height: 62px;
+  right: 379px;
+  top: 649px;
+  background: #dedcdc;
+}
+
+.colors__bright {
+  position: absolute;
+  right: 237px;
+  top: 781px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(-90deg);
+}
+
+/* footer- lastone think  */
+
+.footer {
+  position: relative;
+  min-height: 885px;
+  z-index: 1;
+}
+
+.footer__img {
+  z-index: 2;
+  position: absolute;
+  width: 951px;
+  height: 897px;
+  top: -26px;
+}
+
+.footer__logo--bonum {
+  width: 185px;
+  height: 21px;
+  top: 77px;
+  left: 195px;
+  position: absolute;
+  z-index: 5;
+}
+
+.footer__title {
+  position: absolute;
+  z-index: 5;
+  top: 300px;
+  left: 50.5%;
+  width: 400px;
+  height: 91px;
+  /* font-family: Cera Pro; */
+  font-weight: bold;
+  font-size: 79px;
+  color: #000000;
+}
+
+.footer__subtitle {
+  z-index: 5;
+  position: absolute;
+  width: 116px;
+  height: 21px;
+  left: 928px;
+  top: 500px;
+  /* font-family: Cera Pro; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  transform: rotate(-90deg);
+}

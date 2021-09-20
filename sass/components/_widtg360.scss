@@ -1,0 +1,292 @@
+@media (max-width: 360px) {
+  .header {
+    background-image: url("../img/bg/Virna_360.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 458px;
+  }
+
+  .header__leftside {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 165px;
+    height: 458px;
+    background: rgba(255, 255, 255, 0.85);
+    z-index: 2;
+  }
+
+  .header__leftside--logo_virna {
+    display: none;
+  }
+
+  .header__leftside--title {
+    display: none;
+  }
+
+  .header__leftside--subtitle {
+    display: none;
+  }
+
+  .header__leftside--sidepanel {
+    position: absolute;
+    top: 404px;
+    left: 62px;
+    z-index: 2;
+
+    &::before {
+      content: '';
+      z-index: 5;
+      position: absolute;
+      top: 19px;
+      left: 14px;
+      width: 10px;
+      height: 1px;
+      background: #000000;
+    }
+  }
+
+  .header__leftside--select {
+    display: none;
+  }
+
+  .ins {
+    padding: 0px 9px 0 14px;
+  }
+
+  .heart {
+    padding-left: 4px;
+  }
+
+  .header__leftside--menu {
+    position: absolute;
+    width: 32px;
+    left: -45px;
+    top: 3px;
+  }
+
+  .header__leftside--menu span {
+    display: block;
+    margin-top: 4px;
+    width: 18.5px;
+    height: 1px;
+  }
+
+  .header__right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+    height: 457px;
+    width: 70px;
+  }
+
+  .header__right--logo_bonum {
+    position: absolute;
+    width: 46px;
+    height: 28px;
+    left: 8px;
+    top: 23px;
+    z-index: 2;
+  }
+
+  .header__right--title {
+    left: -54px;
+    width: 219px;
+    height: 3px;
+    top: 250px;
+    font-size: 16px;
+  }
+
+  .header__right--title span {
+    position: absolute;
+    left: 121px;
+    font-size: 15px;
+  }
+
+  //--main_colors-section--//
+
+  .colors {
+    position: relative;
+    min-height: 1000px;
+  }
+
+  .colors__heading {
+    //   top: 22px;
+    left: 16px;
+    font-size: 25px;
+  }
+
+  .colors__subheading {
+    left: 5px;
+    // top: 204px;
+    font-size: 12px;
+  }
+
+  .colors__descriptions {
+    width: 281px;
+    left: 60px;
+    //   top: 83px;
+    font-size: 13px;
+  }
+
+  .colors__title {
+    position: absolute;
+    width: 257px;
+    // top: 270px;
+    left: 43px;
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .colors__subtitle {
+    position: absolute;
+    width: 176px;
+    left: 168px;
+    top: 346px;
+  }
+
+  .colors__burgundy {
+    position: absolute;
+    width: 131px;
+    height: 50px;
+    right: 33px;
+    top: 481px;
+  }
+
+  .colors__burgundy--title {
+    position: absolute;
+    top: 413px;
+    right: -2px;
+    font-size: 14px;
+  }
+
+  .colors__dark--gray {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 14px;
+    top: 743px;
+  }
+
+  .colors__dark__gray_title {
+    position: absolute;
+    left: 19px;
+    top: 806px;
+    font-size: 14px;
+  }
+
+  .colors__gray {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 114px;
+    top: 826px;
+  }
+
+  .colors__gray--title {
+    position: absolute;
+    left: 118px;
+    top: 891px;
+    font-size: 13px;
+  }
+
+  .colors__black {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 215px;
+    top: 826px;
+  }
+
+  .colors__pink {
+    position: absolute;
+    top: 581px;
+    width: 71px;
+    height: 50px;
+    right: 115px;
+  }
+
+  .colors__pink--title {
+    position: absolute;
+    right: 129px;
+    top: 643px;
+    font-size: 14px;
+  }
+
+  .colors__beige {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    right: 215px;
+    top: 581px;
+  }
+
+  .colors__beige--title {
+    position: absolute;
+    right: 226px;
+    top: 644px;
+    font-size: 14px;
+  }
+
+  .colors__light-gray {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    right: 15px;
+    top: 662px;
+  }
+
+  .colors__bright {
+    position: absolute;
+    right: 2px;
+    top: 877px;
+    font-size: 11px;
+  }
+
+  //--footer-section--//
+
+  .footer {
+    position: relative;
+    min-height: 400px;
+    z-index: 1;
+  }
+
+  .footer__img {
+    position: absolute;
+    top: 61px;
+    width: 202px;
+    height: 238px;
+    left: -73px;
+    background: url('./img/home_blur_rectangle_960.png');
+    // display: none;
+  }
+
+  .footer__logo--bonum {
+    position: absolute;
+    width: 68px;
+    height: 19px;
+    top: 10px;
+    left: 13px;
+  }
+
+  .footer__title {
+    position: absolute;
+    z-index: 5;
+    top: 71px;
+    left: 125px;
+    width: 210px;
+    height: 91px;
+    font-size: 44px;
+  }
+
+  .footer__subtitle {
+    width: 89px;
+    height: 20px;
+    left: 90px;
+    // top: 198px;
+  }
+}

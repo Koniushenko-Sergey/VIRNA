@@ -1,0 +1,270 @@
+@media (max-width: 1440px) {
+  .header {
+    background-image: url('../img/bg/Virna_1440.jpg');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 812px;
+  }
+
+  .header__leftside {
+    position: absolute;
+    width: 732px;
+    height: 812px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+    z-index: 2;
+  }
+
+  .header__leftside--logo_virna {
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    left: 139px;
+    top: 30px;
+  }
+
+  .header__leftside--title {
+    position: absolute;
+    width: 180px;
+    font-size: 76px;
+    line-height: 93%;
+    left: 141px;
+    top: 195px;
+  }
+
+  .header__leftside--subtitle {
+    left: 117px;
+    top: 400px;
+    z-index: 2;
+    width: 112px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .header__leftside--sidepanel {
+    top: 719px;
+    left: 217px;
+  }
+
+  .header__leftside--select {
+    top: 4px;
+    right: -240px;
+  }
+
+  .header__leftside--menu {
+    left: -77px;
+    top: 0px;
+    position: absolute;
+  }
+
+  .heart {
+    padding-left: 23px;
+  }
+
+  .ins {
+    padding: 0px 16px 0 12px;
+  }
+
+  .header__leftside--menu span {
+    margin-top: 5px;
+    width: 18.5px;
+  }
+
+  .header__right {
+    position: absolute;
+    width: 315px;
+    height: 812px;
+  }
+
+  .header__right--logo_bonum {
+    width: 160px;
+    height: 20px;
+    left: 69px;
+    top: 31px;
+  }
+
+  .header__right--title {
+    left: 71px;
+    width: 200px;
+    top: 377px;
+    font-size: 18px;
+  }
+
+  .header__right--title span {
+    position: absolute;
+    left: 118px;
+    font-size: 17px;
+  }
+
+  //--main_colors-section--//
+
+  .colors {
+    position: relative;
+    min-height: 850px;
+    margin-top: 22px;
+  }
+
+  .colors__heading {
+    top: 43px;
+    left: 51%;
+    font-size: 36px;
+  }
+
+  .colors__subheading {
+    left: 123px;
+    top: 150px;
+    font-size: 15px;
+  }
+
+  .colors__descriptions {
+    height: 42px;
+    right: 200px;
+  }
+
+  .colors__title {
+    width: 395px;
+    top: 272px;
+    left: 184px;
+    font-size: 62px;
+    line-height: 64px;
+  }
+
+  .colors__subtitle {
+    width: 186px;
+    left: 417px;
+    top: 403px;
+    font-size: 18px;
+  }
+
+  .colors__burgundy {
+    width: 280px;
+    height: 68px;
+    right: 135px;
+    top: 423px;
+  }
+
+  .colors__burgundy--title {
+    top: 346px;
+    right: 114px;
+    font-size: 16px;
+  }
+
+  .colors__dark--gray {
+    width: 129px;
+    height: 60px;
+    left: 185px;
+    top: 630px;
+  }
+
+  .colors__dark__gray_title {
+    left: 187px;
+    top: 698px;
+    font-size: 15px;
+  }
+
+  .colors__gray {
+    width: 130px;
+    height: 60px;
+    left: 346px;
+    top: 720px;
+  }
+
+  .colors__gray--title {
+    left: 346px;
+    top: 788px;
+    font-size: 14px;
+  }
+
+  .colors__black {
+    width: 129px;
+    height: 57px;
+    left: 507px;
+    top: 721px;
+  }
+
+  .colors__pink {
+    top: 536px;
+    width: 130px;
+    height: 60px;
+    right: 575px;
+  }
+
+  .colors__pink--title {
+    position: absolute;
+    right: 648px;
+    top: 610px;
+    font-size: 14px;
+  }
+
+  .colors__beige {
+    width: 130px;
+    height: 60px;
+    right: 415px;
+    top: 631px;
+  }
+
+  .colors__beige--title {
+    right: 487px;
+    top: 705px;
+    font-size: 14px;
+  }
+
+  .colors__light-gray {
+    width: 130px;
+    height: 60px;
+    right: 255px;
+    top: 631px;
+  }
+
+  .colors__bright {
+    right: 115px;
+    top: 762px;
+    font-family: Cera Pro, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  //--footer-section--//
+
+  .footer {
+    position: relative;
+    min-height: 885px;
+    z-index: 1;
+  }
+
+  .footer__img {
+    position: absolute;
+    top: 23px;
+    width: 858px;
+    height: 768px;
+    left: -114px;
+    background: url('./img/home_blur_rectangle_1440.png');
+  }
+
+  .footer__logo--bonum {
+    width: 102px;
+    height: 19px;
+    top: 137px;
+    left: 116px;
+  }
+
+  .footer__title {
+    top: 244px;
+    left: 50.5%;
+    width: 404px;
+    height: 91px;
+    font-size: 78px;
+  }
+
+  .footer__subtitle {
+    width: 89px;
+    height: 18px;
+    left: 696px;
+    top: 418px;
+    font-size: 16px;
+  }
+}
